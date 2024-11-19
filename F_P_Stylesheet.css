@@ -186,6 +186,7 @@ div.chpt p:hover {
   top: 20px;
 }
 .menu__box {
+  overflow:scroll;
   display: block;
   position: fixed;
   top: 0;
@@ -201,14 +202,29 @@ div.chpt p:hover {
 }
 .menu__item {
   display: block;
-  padding: 12px 24px;
+  padding: 20% 24px;
   color: #ffbd59;
   font-family: 'Consolas';
-  font-size: 20px;
+  font-size: 300%;
   font-weight: bolder;
   text-decoration: none;
   transition-duration: .25s;
 }
 .menu__item:hover {
   background-color: #545454;
+}
+
+/* COMMENT SECTION IN CONTACT */
+.comments {
+	width: 500px; 
+	height: 75px; 
+	min-width: 200px; 
+	min-height: 50px; 
+	max-width: 500px; 
+	max-height: 100px;
+	background-color: #aaaaaa;
+}
+.comments::placeholder {
+	color: #545454;
+	font-style: italic;
 }
