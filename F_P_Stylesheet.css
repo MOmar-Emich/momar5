@@ -186,7 +186,7 @@ div.chpt p:hover {
   top: 20px;
 }
 .menu__box {
-  overflow: scroll hidden;
+  overflow: scroll;
   display: block;
   position: fixed;
   top: 0;
