@@ -228,3 +228,99 @@ div.chpt p:hover {
 	color: #545454;
 	font-style: italic;
 }
+
+/*
+
+Potential Form
+
+<div class="contact-form-container">
+    <h2>Sign Up to Volunteer</h2>
+        <form action="mailto:momar5@emich.edu?subject=Choose%20Your%20Own%20Adventure!" method="post" enctype="text/plain">
+    
+			<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name" required="">
+			<br>
+			<br>
+			<label for="contact">Contact Information (Phone Number or Address):</label>
+			<br>
+				<input type="text" id="contact" name="contact" required="">
+			<br>
+			<br>
+			<label for="email">Email Address:</label>
+			<br>
+				<input type="email" id="email" name="email" required="">
+			<br>
+			<br>
+			<label>How'd you like the adventure?</label><br>
+				<input type="checkbox" id="tree-planting" name="opportunities" value="Tree Planting">
+					<label for="tree-planting">Tree Planting (Nov. 20)</label>
+			<br>
+				<input type="checkbox" id="invasive-removal" name="opportunities" value="Invasive Removal">
+					<label for="invasive-removal">Invasive Removal (Nov. 21)</label>
+			<br>
+				<input type="checkbox" id="trail-cleanup" name="opportunities" value="Trail Cleanup">
+					<label for="trail-cleanup">Trail Cleanup (Nov. 22)</label>
+			<br>
+				<input type="checkbox" id="seed-collecting" name="opportunities" value="Seed Collecting">
+					<label for="seed-collecting">Seed Collecting (Nov. 23)</label>
+			<br>
+				<input type="checkbox" id="trail-run" name="opportunities" value="Trail Run">
+					<label for="trail-run">Trail Run (Nov. 24)</label>
+			<br>
+			<br>
+            <input type="submit" value="Submit">
+        </form>
+</div>
+
+
+
+
+.contact-form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.contact-form-container input[type="text"], .contact-form-container input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+*/
+
+input[type="submit"] {
+	border: 1px solid #ffbd59;
+	background: #ffbd59;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+	font-family: "consolas";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid #ffbd59;
+	background: #ffbd59;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+	font-family: "consolas";
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+
+label {
+	font-family: "consolas";
+	color: #ffbd59;
+	font-size: 16px;
+}
